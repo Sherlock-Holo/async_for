@@ -1,0 +1,21 @@
+[package]
+name = "async_for"
+version = "0.1.0"
+edition = "2018"
+authors = ["Sherlock Holo <sherlockya@gmail.com>"]
+license = "MIT"
+description = "This crate provide a way that can use Stream with for loop like Iterator."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
+pin-utils = "0.1"
+
+[dev-dependencies]
+futures-util = "0.3"
+futures-test = "0.3"
