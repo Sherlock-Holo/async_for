@@ -6,6 +6,7 @@ authors = ["Sherlock Holo <sherlockya@gmail.com>"]
 license = "MIT"
 description = "This crate provide a way that can use Stream with for loop like Iterator."
 keywords = ["async", "for-loop"]
+repository = "https://github.com/Sherlock-Holo/async_for"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
